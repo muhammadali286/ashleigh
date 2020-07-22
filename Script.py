@@ -119,7 +119,9 @@ def chromeInit():
     chrome_options.add_argument("--start-maximized")
     chrome_options.add_argument("--disable-notifications")
     chrome_options.add_argument("--disable-popup-blocking");
-    chrome_options.headless = True
+    chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_argument('--disable-dev-shm-usage')
     chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
     path = os.path.join(os.getcwd(), "chromedriver")
     driver = webdriver.Chrome(chrome_options=chrome_options, executable_path=path)
