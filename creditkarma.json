@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "creditkarma",
+  "private_key_id": "59951888675c34c4b944af80bbfcbb0743314881",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCjfN3sZYbmuT0T\nPJVTClaTLgpF3TMAMq56YEqbDYXRVqF37YzSFn+IhZCT2IfaF20INqbq3eEEQKI8\nUgtUsiDE11TTpFf5QHzgdAn8eNYQ/EuMQPqq3gLlZN3QAM1BmDkDrpR6DskeH9Fa\nuEZHY5PUgphXngi+IzZ/ih90/l7+lrHW5+DEUU/Zqjxkygcp/ViYpuKGa1+h6w47\nait+46OBcvJYEc1Ede1k3OJXK95YScl1tpbABgdHMIRDv0HPs79JYvo5/nu7OTnL\nTqduWiNsd7qdXT4y2+oVTgDb9ohmqisWe1sOwqPt8OBu97BpYRKASdnvF9K+PdzT\nkvQiSASPAgMBAAECggEAOA/mJB3upCjqZjHUvOyjIoZbtHh1eEBo74Mcok4BUPdl\nmHQH4bUgV6cBnIlYkLOOyo2/MHQUqPonCAtUYl9Q+F8k8gx9tHXmPKveDss7EQkL\nORXBP52xHYu4uo7D1BYImxgfRznRwrhDeNoPE4T0mR+NcSI6ukTl99dcESj3V1K1\nkxvEDsK6b1jvfD6JPndUAS6RvwuAETcDONskijnHMcgZwtmJ0RM/Adt7m+ESpqUU\n1iO1kkwW6yUHbZmVLyb9koy2VJTJbAg0HLWb+eniQURy7gF2Opt20Brkg0Dv9Mwg\nI04wyH3cXZs1Lpxbd+0fH0T3z1nPbOhEiktckFAzrQKBgQDkS4y8+hXn9hPiU/IF\nXlaAHeOF+oKwZquwT9gqiDDz1ta5SGHHDGdYiTPA6L5huoBiaYmZ0w2KWm5882nD\n8O3igQn/kxy++gozUIYy5R878DANRwcFpZqswkVEyWitkbsMOmmGR8AZO4/UYl+2\npBlCXXbTeqVnHkB5pU9PGRUNZQKBgQC3U/IDp7UxSkfIcFApVZY+SFPpL8S4oeX7\nG9kF+i+OsDG7WT+eqoDp+Myo/PawC4y0a3N/QJMR2cOCM1ZpP90e5Yo69SBmdnNJ\nD+iH3GeM07GVoIMFEYhrF+fhkJ78Gk+q11PBtk8NZ8npPtb6vci6A/zBhetv832h\nTUiYg9hU4wKBgQCJzUyzmWV1seUIvdEeCna+OMxox/DxF9hUwa1i5vhdh3XvO1DB\n/Ku5FoBl1lds2E28maXUcz/+Hl4JEEjsXFbLXUayvZMhd/6GQPnwaLs0y+PFb/U+\nJFs8Irv7LHQCKTA1zmB6DH9Y+8ny0jqiHWWd2JrsRmDm4KzcgLthrGs3vQKBgG8j\n6h2DJ5rJMHl4dXCJnXsGuDAvMHDKXbV9LXWtNfWoJY4xzhrvvRWbKt/r89XIOrYK\nSkvEJyT0Qs2FOAa4m+ImQEX743eaqcuKZGsxGGnM0OUoGSYSegSKyp354hhuDwxA\nXFucnZI/8K2B1izOr4jt7+aWvKPzFp+aTb+Adr8HAoGAZ4ILnFuGiO++uaZ+LRzZ\na09ew2ETCT9kOi2Hkz/r1z+MLtqdKbpPtNoNPFFGXeLExoCTV1nI3CsT0Tbn5B+i\nAnU5eLmBeKSp7/zMMJH/Y4FvkodnQpp05yUJqNAdnK1yukfh8lsAsdU4ealVdFfN\n26iPc5/zhC0h/hnFsij93ok=\n-----END PRIVATE KEY-----\n",
+  "client_email": "creditkarma@creditkarma.iam.gserviceaccount.com",
+  "client_id": "103248755480625403225",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/creditkarma%40creditkarma.iam.gserviceaccount.com"
+}
