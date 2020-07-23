@@ -157,9 +157,10 @@ def login(driver, username, password):
         if "The email or password you entered is incorrect" in content or \
                 'something went wrong while trying to perform your' in content:
             success = False
-            print('Unsuccesful login')
+            logging.info("Login Failed")
     except Exception as e:
-        print('')
+        print(e)
+        logging.info("Exception in login")
 
     return success
 
