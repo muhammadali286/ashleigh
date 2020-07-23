@@ -121,6 +121,7 @@ def chromeInit():
     chrome_options.add_argument("--disable-popup-blocking");
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--no-sandbox')
+    # chrome_options.add_argument("start-maximized")
     chrome_options.add_argument('--disable-dev-shm-usage')
     chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
     path = os.path.join(os.getcwd(), "chromedriver")
@@ -153,10 +154,12 @@ def login(driver, username, password):
         time.sleep(5)
 
         content = driver.find_element_by_id("log-on-form-section").text
-        if "The email or password you entered is incorrect" in content:
+        if "The email or password you entered is incorrect" in content or \
+                'something went wrong while trying to perform your' in content:
             success = False
+            print('Unsuccesful login')
     except Exception as e:
-        print()
+        print('')
 
     return success
 
@@ -321,6 +324,7 @@ if __name__ == '__main__':
     df = loadData()
     try:
         Run(driver, df)
+        print('ok')
     # csvtoExcel()
     except Exception as e:
         print(e)
